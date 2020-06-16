@@ -7,6 +7,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   height: 104px;
   border-bottom: 1px solid #D4D4D4;
 }
@@ -32,6 +35,8 @@ body {
 }
 
 .header__search {
+  margin-left: 44px;
+  margin-right: auto;
   min-width: 616px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,5 +65,93 @@ body {
   line-height: 21px;
   /* identical to box height */
   color: #A5A5A5;
+}
+
+.header__menu {
+  min-width: 307px;
+}
+
+.header__menu ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 104px;
+  margin-right: 20px;
+}
+
+.header__menu li {
+  margin-left: 10px;
+}
+
+.header__menu li a {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #363636;
+}
+
+.header__menu li a:hover {
+  color: #5671F6;
+}
+
+.header__menu li a:active {
+  color: white;
+}
+
+.header__register {
+  min-width: 176px;
+  width: 180px;
+  border-left: 1px solid #D4D4D4;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #5671F6;
+}
+
+.header__enter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 1px solid #D4D4D4;
+  min-width: 151px;
+  background: #5671F6;
+}
+
+.header__enter a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */

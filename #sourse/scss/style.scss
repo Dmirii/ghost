@@ -6,13 +6,14 @@ body{
 
 .header{
     display: flex;
+    justify-content: space-between;
     height: 104px;
     border-bottom: 1px solid #D4D4D4;
     //transform: rotate(180deg);
 
     &__logo{       
         min-width: 136px;
-        border-right:  1px solid #D4D4D4;;
+        border-right:  1px solid #D4D4D4;
         font-style: normal;
         font-weight: 900;
         font-size: 30px;
@@ -25,6 +26,8 @@ body{
     }
 
     &__search{
+        margin-left: 44px;
+        margin-right: auto;
         min-width: 616px;
         display: flex;
         justify-content: start;
@@ -47,6 +50,77 @@ body{
 
             color: #A5A5A5;
         }
+    }
+
+    &__menu{
+        min-width: 307px;
+        ul{
+            padding: 0;
+            margin: 0;
+             display: flex;  
+             list-style: none;
+             justify-content: center;
+             align-items:center;
+             height: 104px;  
+             margin-right: 20px;          
+        }
+
+        li{
+           
+            margin-left: 10px;
+            a{
+                transition: all 1s;
+                text-decoration: none;               
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                color: #363636;
+
+            }
+            a:hover{
+                color: #5671F6;
+                
+            }
+            a:active{
+                color: white
+            }
+        }
+    }
+
+    &__register{
+        min-width: 176px;
+        width: 180px;
+        border-left :  1px solid #D4D4D4;
+        display: flex;
+        justify-content: center;
+        align-items:center;     
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;        
+        color: #5671F6;
+    }
+
+    &__enter{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        border-left :  1px solid #D4D4D4;
+        min-width: 151px;
+        background: #5671F6;
+        a{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        text-decoration: none;
+        }
+
+        
+        
+        
     }
 
 
