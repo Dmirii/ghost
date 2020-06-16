@@ -143,10 +143,8 @@ body{
 .promo{
     margin-top: 80px;
     height: 640px;
-   // margin-bottom: 80px;
-   
+     display: flex;
 
-    display: flex;
     &__bunner{
         height: 530px;
         margin-right: 80px;
@@ -192,6 +190,7 @@ body{
             bottom: 28px;
         }
     }
+
     &__descr{
         &-title{        
             min-width: 491px;
@@ -298,9 +297,8 @@ body{
    
 
 }
-.divhr{
-    //border-bottom : 1px solid #D4D4D4;
-    width: 99%;
+.divhr{    
+    width: 100%;
     background: #D4D4D4;
     color:  #D4D4D4;
     border-bottom:none;
@@ -360,6 +358,49 @@ body{
                 margin-left: 20px;
             }
 
+        }
+    }
+}
+
+.footer{
+    height: 424px;
+    background: #F3F3F3;
+    &__title{
+       padding-top: 70px;       
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+    }
+    &__wrapper{
+        margin-top: 65px;
+        display: flex;
+        &-item{
+           // height: 160px;
+            width: 260px;
+            background: #FFFFFF;
+            border-radius: 5px;
+            margin-left: 15px;
+            margin-right: 15px;
+            padding: 30px;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 14px;
+            line-height: 16px;
+
+            color: #000000;
+
+            span{
+                display: block;
+                margin-bottom: 14px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+
+                color: #000000;
+            }
         }
     }
 }
