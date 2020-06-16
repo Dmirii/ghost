@@ -307,11 +307,60 @@ body{
 }
     
 .people{
+    margin-top: 90px;
+
+    &__toggle{
+        display: flex;
+
+        &-item {
+            
+            a{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            color: #A5A5A5;
+            margin-right: 30px;
+            text-decoration: none;
+            }
+
+        }
+        &-item-ACTIVE {    
+            a{
+            font-weight: 900;           
+            color: #363636;
+            }
+        }
+
+    }
 
     &__table{
-    display: flex;
-    flex-wrap: wrap;
-    height: 500px;
+        img{
+            height: 100px;
+            width: 100px;
+        }
+        margin-top: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     
+        height: 500px;
+        &-item{
+            align-items:center;
+            
+            width: 234px;
+            display: flex;
+            margin-right: 40px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            color: #A5A5A5;
+            &-descr{
+                margin-left: 20px;
+            }
+
+        }
     }
 }
 
