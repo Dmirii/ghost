@@ -72,6 +72,7 @@ body {
 }
 
 .header__menu ul {
+  min-width: 317px;
   padding: 0;
   margin: 0;
   display: -webkit-box;
@@ -89,7 +90,8 @@ body {
 }
 
 .header__menu li {
-  margin-left: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .header__menu li a {
