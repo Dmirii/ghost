@@ -32,7 +32,7 @@ body{
     &__search{
         margin-left: 44px;
         margin-right: auto;
-        min-width: 616px;
+       // min-width: 616px;
         display: flex;
         justify-content: start;
         align-items:center;
@@ -300,7 +300,7 @@ body{
 }
 .divhr{
     //border-bottom : 1px solid #D4D4D4;
-    width: 100%;
+    width: 99%;
     background: #D4D4D4;
     color:  #D4D4D4;
     border-bottom:none;

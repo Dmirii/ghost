@@ -41,7 +41,6 @@ body {
 .header__search {
   margin-left: 44px;
   margin-right: auto;
-  min-width: 616px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -349,7 +348,7 @@ body {
 }
 
 .divhr {
-  width: 100%;
+  width: 99%;
   background: #D4D4D4;
   color: #D4D4D4;
   border-bottom: none;
