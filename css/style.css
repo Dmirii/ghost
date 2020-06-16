@@ -124,11 +124,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header__register a {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #5671F6;
+  text-decoration: none;
 }
 
 .header__enter {

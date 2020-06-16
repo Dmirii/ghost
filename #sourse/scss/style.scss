@@ -94,12 +94,15 @@ body{
         border-left :  1px solid #D4D4D4;
         display: flex;
         justify-content: center;
-        align-items:center;     
+        align-items:center; 
+        a{    
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
         line-height: 21px;        
         color: #5671F6;
+        text-decoration: none;
+        }
     }
 
     &__enter{
