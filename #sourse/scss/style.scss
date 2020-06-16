@@ -168,7 +168,7 @@ body{
         }
 
         &-btn-txt::before{
-            content: url('./img/play.svg');                                 
+            content: url('../img/play.svg');                                 
             width: 20px;
             height: 20px;
             position: absolute;
@@ -227,7 +227,31 @@ body{
             justify-content: space-between;
 
             &-lvl{
+                
+            border: 1px solid #5671F6;
+            box-sizing: border-box;
+            border-radius: 10px;
+            width: 100px;
+            height: 100px;
+        
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 33px;
+            /* identical to box height */
 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            color: #5671F6;
+
+
+            }
+            &-txt{
+                margin-left: 28px;
+                margin-right: auto;
             }
         }
 
