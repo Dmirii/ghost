@@ -14,15 +14,19 @@ body{
     &__logo{       
         min-width: 136px;
         border-right:  1px solid #D4D4D4;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 30px;
-        line-height: 35px;
         display: flex;
         align-items: center;
         text-align: center;
         justify-content: center;
-        color: #5671F6;
+
+        a{
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            line-height: 35px;          
+            color: #5671F6;
+            text-decoration: none;
+        }
     }
 
     &__search{
@@ -138,17 +142,22 @@ body{
 
 .promo{
     margin-top: 80px;
+    height: 640px;
+   // margin-bottom: 80px;
+   
 
     display: flex;
     &__bunner{
+        height: 530px;
         margin-right: 80px;
         display: flex;
         flex-direction: column;
         border:  1px solid #D4D4D4;
         border-radius: 5px 5px 5px 0;
-
+        transition: all 1s;
       
         &-btn{ 
+            
             position: relative;
             cursor: pointer;           
             display: flex;
@@ -163,6 +172,13 @@ body{
             line-height: 19px;
             /* identical to box height */
             color: #5671F6;
+            transition: all 1s;
+            &:hover{
+                
+                border: 1px solid #5671F6;                
+                border-radius: 1px;
+                text-shadow: 1px 1px 2px #5671F6;
+            }
 
              
         }
@@ -252,6 +268,28 @@ body{
             &-txt{
                 margin-left: 28px;
                 margin-right: auto;
+                &-title{
+          
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #363636;
+                        margin-bottom: 12px;
+
+                }
+
+                &-descr{
+                    font-family: Roboto;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 30px;
+                    color: #363636;
+                    span{
+                        font-weight: bold;
+                    }
+                }
             }
         }
 
@@ -260,5 +298,20 @@ body{
    
 
 }
+.divhr{
+    //border-bottom : 1px solid #D4D4D4;
+    width: 100%;
+    background: #D4D4D4;
+    color:  #D4D4D4;
+    border-bottom:none;
+}
     
+.people{
+
+    &__table{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    }
+}
 

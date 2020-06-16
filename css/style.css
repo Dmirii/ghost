@@ -17,10 +17,6 @@ body {
 .header__logo {
   min-width: 136px;
   border-right: 1px solid #D4D4D4;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 30px;
-  line-height: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,7 +27,15 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.header__logo a {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
   color: #5671F6;
+  text-decoration: none;
 }
 
 .header__search {
@@ -168,12 +172,14 @@ body {
 
 .promo {
   margin-top: 80px;
+  height: 640px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .promo__bunner {
+  height: 530px;
   margin-right: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -184,6 +190,8 @@ body {
           flex-direction: column;
   border: 1px solid #D4D4D4;
   border-radius: 5px 5px 5px 0;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .promo__bunner-btn {
@@ -207,6 +215,14 @@ body {
   line-height: 19px;
   /* identical to box height */
   color: #5671F6;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.promo__bunner-btn:hover {
+  border: 1px solid #5671F6;
+  border-radius: 1px;
+  text-shadow: 1px 1px 2px #5671F6;
 }
 
 .promo__bunner-btn-txt::before {
@@ -308,5 +324,43 @@ body {
 .promo__descr-rate-txt {
   margin-left: 28px;
   margin-right: auto;
+}
+
+.promo__descr-rate-txt-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #363636;
+  margin-bottom: 12px;
+}
+
+.promo__descr-rate-txt-descr {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #363636;
+}
+
+.promo__descr-rate-txt-descr span {
+  font-weight: bold;
+}
+
+.divhr {
+  width: 100%;
+  background: #D4D4D4;
+  color: #D4D4D4;
+  border-bottom: none;
+}
+
+.people__table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 500px;
 }
 /*# sourceMappingURL=style.css.map */
