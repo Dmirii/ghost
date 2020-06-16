@@ -148,20 +148,32 @@ body{
         border-radius: 5px 5px 5px 0;
 
       
-        &-btn{            
+        &-btn{ 
+            position: relative;
+            cursor: pointer;           
             display: flex;
             justify-content: center;
             align-items:center;
             height: 70px;
             background: white;
-            border:none;
+            border:none;       
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            /* identical to box height */
+            color: #5671F6;
+
              
         }
 
         &-btn-txt::before{
-            content: url('/img/play.svg');                                 
-            width: 60px;
-            height: 60px;
+            content: url('./img/play.svg');                                 
+            width: 20px;
+            height: 20px;
+            position: absolute;
+            left: 60px;
+            bottom: 28px;
         }
     }
     &__descr{
@@ -193,7 +205,36 @@ body{
             color: #000000;
 
         }
+
+        &-table-wrapper{
+            display: flex;
+            min-width: 500px;           
+            justify-content: center;
+            align-items:center;           
+        }
+        &-ltable{          
+            min-width: 255px;            
+            margin-top: 50px;          
+        }
+
+        &-rtable{
+            min-width: 255px;             
+            margin-top: 50px;            
+        }
+        &-rate{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-between;
+
+            &-lvl{
+
+            }
+        }
+
+
     }
-    
+   
 
 }
+    
+

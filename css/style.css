@@ -187,6 +187,8 @@ body {
 }
 
 .promo__bunner-btn {
+  position: relative;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,12 +201,21 @@ body {
   height: 70px;
   background: white;
   border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #5671F6;
 }
 
 .promo__bunner-btn-txt::before {
-  content: url("/img/play.svg");
-  width: 60px;
-  height: 60px;
+  content: url("./img/play.svg");
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 60px;
+  bottom: 28px;
 }
 
 .promo__descr-title {
@@ -234,5 +245,38 @@ body {
   line-height: 150%;
   /* or 21px */
   color: #000000;
+}
+
+.promo__descr-table-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.promo__descr-ltable {
+  min-width: 255px;
+  margin-top: 50px;
+}
+
+.promo__descr-rtable {
+  min-width: 255px;
+  margin-top: 50px;
+}
+
+.promo__descr-rate {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=style.css.map */
