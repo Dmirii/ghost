@@ -103,6 +103,12 @@
     width: 330px;
     margin-top: 30px;
   }
+  .promo__descr-table-wrapper {
+    min-width: 330px;
+  }
+  .promo__descr-title {
+    min-width: 330px;
+  }
   .promo__descr h1 {
     font-size: 20px;
     line-height: 23px;
