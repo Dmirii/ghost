@@ -196,6 +196,7 @@ body {
 }
 
 .promo__bunner-btn {
+  position: relative;
   border: 1px solid #D4D4D4;
   cursor: pointer;
   display: -webkit-box;
@@ -230,6 +231,11 @@ body {
   content: url("../img/play.svg");
   width: 20px;
   height: 20px;
+  position: absolute;
+  display: block;
+  top: 20px;
+  margin: auto;
+  margin-left: -30px;
 }
 
 .promo__descr-title {
