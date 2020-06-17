@@ -118,6 +118,9 @@ body{
 }
 
 .promo{
+    table{
+        border-spacing: 30px 15px;  
+    }
     h1{
         margin: 0;
     }
@@ -126,9 +129,11 @@ body{
        display: flex;
 
     &__bunner{
+        //width:358px; 
         img{
-            width: 100%;
-        }      
+            max-width:358;
+        } 
+            
         max-height: 535px;
         margin-right: 80px;
         display: flex;
@@ -138,10 +143,12 @@ body{
         transition: all 1s;
       
         &-btn{ 
+           // outline: none;
             position: relative;
             border:  1px solid #D4D4D4;           
             cursor: pointer;           
             display: flex;
+            align-items: center;
             justify-content: center;
             align-items:center;
             min-height: 70px;
@@ -197,8 +204,10 @@ body{
         &-table-wrapper{
             display: flex;
             min-width: 500px;           
-            justify-content: center;
-            align-items:center;           
+            justify-content:start;
+            align-items:center; 
+
+                     
         }
         &-ltable{          
             min-width: 255px;            
@@ -318,7 +327,7 @@ body{
             font-size: 16px;
             line-height: 19px;
             color: #A5A5A5;
-            
+
             &-descr{
                 margin-left: 20px;
             }

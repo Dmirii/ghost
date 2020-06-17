@@ -50,6 +50,7 @@
 
 @media(max-width: 460px){   
 .header{
+    //position: fixed;
     height: 65px;
     &__logo{
         min-width: none;
@@ -74,13 +75,56 @@
 .promo{
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+    margin-left: 20px;
 
     &__bunner{
        max-height: none;
     }
     &__descr{
+         margin-top: 30px;
        
+       h1{
+            font-size: 20px;
+            line-height: 23px;
+       }
+
+       &-subtitle{
+            font-size: 14px;
+            line-height: 16px;
+       }
+       &-txt{
+      
+            min-width: 320px;       
+            font-size: 14px;
+            line-height: 150%;
+            margin-right: 20px;
+      
+        
+       }
+       &-table-wrapper{
+           flex-wrap: wrap;
+         
+
+       }
+       &-rtable{
+        margin-top: 0;
     }
+
+    &-rate{
+        margin-bottom: 70px;
+    }
+
+    }
+}
+
+.people{
+    margin: 0 30px;
+    margin-top: 75px;
+  &__table{
+      //margin: 0 30px;
+  }
+
 }
 
  

@@ -62,9 +62,42 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-top: 30px;
+    margin-left: 20px;
   }
   .promo__bunner {
     max-height: none;
+  }
+  .promo__descr {
+    margin-top: 30px;
+  }
+  .promo__descr h1 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .promo__descr-subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .promo__descr-txt {
+    min-width: 320px;
+    font-size: 14px;
+    line-height: 150%;
+    margin-right: 20px;
+  }
+  .promo__descr-table-wrapper {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .promo__descr-rtable {
+    margin-top: 0;
+  }
+  .promo__descr-rate {
+    margin-bottom: 70px;
+  }
+  .people {
+    margin: 0 30px;
+    margin-top: 75px;
   }
 }
 /*# sourceMappingURL=media.css.map */

@@ -165,6 +165,10 @@ body {
   display: flex;
 }
 
+.promo table {
+  border-spacing: 30px 15px;
+}
+
 .promo h1 {
   margin: 0;
 }
@@ -186,7 +190,7 @@ body {
 }
 
 .promo__bunner img {
-  width: 100%;
+  max-width: 358;
 }
 
 .promo__bunner-btn {
@@ -196,12 +200,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
   min-height: 70px;
   background: white;
   border: none;
@@ -257,9 +262,9 @@ body {
   display: -ms-flexbox;
   display: flex;
   min-width: 500px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
