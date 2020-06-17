@@ -337,6 +337,10 @@ body{
 }
 
 .footer{
+
+    &__img{
+        display: none;
+    }
     height: 424px;
     background: #F3F3F3;
     &__title{

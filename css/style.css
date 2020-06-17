@@ -419,6 +419,10 @@ body {
   background: #F3F3F3;
 }
 
+.footer__img {
+  display: none;
+}
+
 .footer__title {
   padding-top: 70px;
   font-weight: 900;
