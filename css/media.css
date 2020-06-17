@@ -38,9 +38,38 @@
   .header {
     height: 65px;
   }
+  .header__burger {
+    display: block;
+    position: relative;
+    right: 10px;
+    top: 20px;
+    width: 30px;
+    height: 20px;
+  }
+  .header__burger span {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+  .header__burger:before, .header__burger:after {
+    content: '';
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+  }
+  .header__burger:before {
+    top: 18px;
+  }
   .header__logo {
     min-width: none;
     border-right: none;
+  }
+  .header__search {
+    padding-left: 170px;
   }
   .header__search input {
     display: none;
@@ -62,13 +91,16 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-top: 30px;
     margin-left: 20px;
+    margin-top: 40px;
+    width: 330px;
   }
   .promo__bunner {
     max-height: none;
+    width: 330px;
   }
   .promo__descr {
+    width: 330px;
     margin-top: 30px;
   }
   .promo__descr h1 {
