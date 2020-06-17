@@ -9,8 +9,7 @@ body{
     justify-content: space-between;
     height: 104px;
     border-bottom: 1px solid #D4D4D4;
-    //transform: rotate(180deg);
-
+ 
     &__logo{       
         min-width: 136px;
         border-right:  1px solid #D4D4D4;
@@ -19,8 +18,7 @@ body{
         text-align: center;
         justify-content: center;
 
-        a{
-            font-style: normal;
+        a{            
             font-weight: 900;
             font-size: 30px;
             line-height: 35px;          
@@ -31,8 +29,7 @@ body{
 
     &__search{
         margin-left: 44px;
-        margin-right: auto;
-       // min-width: 616px;
+        margin-right: auto;    
         display: flex;
         justify-content: start;
         align-items:center;
@@ -43,50 +40,38 @@ body{
             margin-left: 20px;
         }
         &-input{
-            margin-left: 20px;
-           
-            font-style: normal;
-            font-weight: normal;
+            margin-left: 20px;             
             font-size: 18px;
-            line-height: 21px;
-            /* identical to box height */
-
-
+            line-height: 21px;          
             color: #A5A5A5;
         }
     }
 
     &__menu{
         min-width: 317px;
-        ul{
-        
+        ul{        
             padding: 0;
             margin: 0;
-             display: flex;  
-             list-style: none;
-             justify-content: center;
-             align-items:center;
-             height: 104px;  
-             margin-right: 20px;          
+            display: flex;  
+            list-style: none;
+            justify-content: center;
+            align-items:center;
+            height: 104px;  
+            margin-right: 20px;          
         }
 
-        li{
-           
+        li{           
             margin-left: 5px;
             margin-right: 5px;;
             a{
                 transition: all 1s;
-                text-decoration: none;               
-                font-style: normal;
-                font-weight: normal;
+                text-decoration: none;                  
                 font-size: 18px;
                 line-height: 21px;
                 color: #363636;
-
             }
             a:hover{
-                color: #5671F6;
-                
+                color: #5671F6;                
             }
             a:active{
                 color: white
@@ -96,18 +81,16 @@ body{
 
     &__register{
         min-width: 176px;
-        //width: 180px;
         border-left :  1px solid #D4D4D4;
         display: flex;
         justify-content: center;
         align-items:center; 
-        a{    
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;        
-        color: #5671F6;
-        text-decoration: none;
+
+        a{           
+            font-size: 18px;
+            line-height: 21px;        
+            color: #5671F6;
+            text-decoration: none;
         }
     }
 
@@ -118,23 +101,17 @@ body{
         border-left :  1px solid #D4D4D4;
         min-width: 151px;
         background: #5671F6;
-        a{
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 21px;
-        color: #FFFFFF;
-        text-decoration: none;
-        }
 
+        a{          
+            font-size: 18px;
+            line-height: 21px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }       
         
-        
-        
-    }
-
-
-    
+    }    
 }
+
 .wrapper{
     max-width: 1100px;
     margin: 0 auto;
@@ -144,16 +121,14 @@ body{
     h1{
         margin: 0;
     }
-
     margin-top: 80px;
     min-height: 640px;
-     display: flex;
+       display: flex;
 
     &__bunner{
         img{
             width: 100%;
-        }
-       // min-height: 530px;
+        }      
         max-height: 535px;
         margin-right: 80px;
         display: flex;
@@ -171,21 +146,16 @@ body{
             align-items:center;
             min-height: 70px;
             background: white;
-            border:none;       
-            font-style: normal;
-            font-weight: normal;
+            border:none;             
             font-size: 16px;
-            line-height: 19px;
-            /* identical to box height */
+            line-height: 19px;           
             color: #5671F6;
             transition: all 1s;
-            &:hover{
-                
+            &:hover{                
                 border: 1px solid #5671F6;                
                 border-radius: 1px;
                 text-shadow: 1px 1px 2px #5671F6;
             }
-
              
         }
 
@@ -197,16 +167,13 @@ body{
             display: block;
             top: 20px;          
             margin: auto;
-            margin-left: -30px;
-            
-           
+            margin-left: -30px;           
         }
     }
 
     &__descr{
         &-title{        
-            min-width: 491px;
-            font-style: normal;
+            min-width: 491px;            
             font-weight: 900;
             font-size: 36px;
             line-height: 42px;
@@ -214,23 +181,17 @@ body{
         }
 
         &-subtitle{
-            margin-top: 16px;         
-            font-style: normal;
-            font-weight: normal;
+            margin-top: 16px;              
             font-size: 18px;
             line-height: 21px;
             color: #A5A5A5;
         }
         &-txt{
             margin-top: 32px; 
-            min-width: 514px;      
-            font-style: normal;
-            font-weight: normal;
+            min-width: 514px;               
             font-size: 14px;
-            line-height: 150%;
-            /* or 21px */
+            line-height: 150%;         
             color: #000000;
-
         }
 
         &-table-wrapper{
@@ -253,47 +214,34 @@ body{
             display: flex;
             justify-content: space-between;
 
-            &-lvl{
-                
-            border: 1px solid #5671F6;
-            box-sizing: border-box;
-            border-radius: 10px;
-            width: 100px;
-            height: 100px;
-        
-            font-style: normal;
-            font-weight: bold;
-            font-size: 28px;
-            line-height: 33px;
-            /* identical to box height */
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-
-            color: #5671F6;
-
-
+            &-lvl{                
+                border: 1px solid #5671F6;
+                box-sizing: border-box;
+                border-radius: 10px;
+                width: 100px;
+                height: 100px;                
+                font-weight: bold;
+                font-size: 28px;
+                line-height: 33px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: #5671F6;
             }
+
             &-txt{
                 margin-left: 28px;
                 margin-right: auto;
-                &-title{
-          
-                        font-style: normal;
-                        font-weight: bold;
-                        font-size: 18px;
-                        line-height: 21px;
-                        color: #363636;
-                        margin-bottom: 12px;
-
+                &-title{                        
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #363636;
+                    margin-bottom: 12px;
                 }
 
-                &-descr{
-                    font-family: Roboto;
-                    font-style: normal;
-                    font-weight: normal;
+                &-descr{                          
                     font-size: 16px;
                     line-height: 30px;
                     color: #363636;
@@ -317,29 +265,24 @@ body{
 }
     
 .people{
-    margin-top: 90px;
-
-    //height: 500px;
+    margin-top: 90px;  
     &__toggle{
         display: flex;
 
-        &-item {
-            
-            a{
-            font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
-            line-height: 28px;
-            color: #A5A5A5;
-            margin-right: 30px;
-            text-decoration: none;
+        &-item {            
+            a{               
+                font-size: 24px;
+                line-height: 28px;
+                color: #A5A5A5;
+                margin-right: 30px;
+                text-decoration: none;
             }
 
         }
         &-item-ACTIVE {    
             a{
-            font-weight: 900;           
-            color: #363636;
+                font-weight: 900;           
+                color: #363636;
             }
         }
 
@@ -356,13 +299,11 @@ body{
        
         display: flex;
         flex-wrap: wrap;
+        flex-basis: 25%;
         justify-content: space-between;
-     
-        
+
         &-item{
-            span{
-                
-                font-style: normal;
+            span{               
                 font-weight: bold;
                 font-size: 16px;
                 line-height: 19px;
@@ -373,12 +314,11 @@ body{
             width: 234px;
             display: flex;
             margin-right: 20px;
-            margin-left: 20px;
-            font-style: normal;
-            font-weight: normal;
+            margin-left: 20px;              
             font-size: 16px;
             line-height: 19px;
             color: #A5A5A5;
+            
             &-descr{
                 margin-left: 20px;
             }
@@ -391,8 +331,7 @@ body{
     height: 424px;
     background: #F3F3F3;
     &__title{
-       padding-top: 70px;       
-        font-style: normal;
+       padding-top: 70px;          
         font-weight: 900;
         font-size: 24px;
         line-height: 28px;
@@ -401,29 +340,23 @@ body{
     &__wrapper{
         margin-top: 65px;
         display: flex;
-        &-item{
-           // height: 160px;
+        &-item{    
             width: 260px;
             background: #FFFFFF;
             border-radius: 5px;
             margin-left: 15px;
             margin-right: 15px;
-            padding: 30px;
-            font-style: normal;
+            padding: 30px;            
             font-weight: 900;
             font-size: 14px;
             line-height: 16px;
-
             color: #000000;
 
             span{
                 display: block;
-                margin-bottom: 14px;
-                font-style: normal;
-                font-weight: normal;
+                margin-bottom: 14px;               
                 font-size: 14px;
                 line-height: 16px;
-
                 color: #000000;
             }
         }

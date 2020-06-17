@@ -30,7 +30,6 @@ body {
 }
 
 .header__logo a {
-  font-style: normal;
   font-weight: 900;
   font-size: 30px;
   line-height: 35px;
@@ -62,11 +61,8 @@ body {
 
 .header__search-input {
   margin-left: 20px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-  /* identical to box height */
   color: #A5A5A5;
 }
 
@@ -100,8 +96,6 @@ body {
   -webkit-transition: all 1s;
   transition: all 1s;
   text-decoration: none;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #363636;
@@ -130,8 +124,6 @@ body {
 }
 
 .header__register a {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #5671F6;
@@ -154,8 +146,6 @@ body {
 }
 
 .header__enter a {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
@@ -215,11 +205,8 @@ body {
   min-height: 70px;
   background: white;
   border: none;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* identical to box height */
   color: #5671F6;
   -webkit-transition: all 1s;
   transition: all 1s;
@@ -244,7 +231,6 @@ body {
 
 .promo__descr-title {
   min-width: 491px;
-  font-style: normal;
   font-weight: 900;
   font-size: 36px;
   line-height: 42px;
@@ -253,8 +239,6 @@ body {
 
 .promo__descr-subtitle {
   margin-top: 16px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 21px;
   color: #A5A5A5;
@@ -263,11 +247,8 @@ body {
 .promo__descr-txt {
   margin-top: 32px;
   min-width: 514px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 150%;
-  /* or 21px */
   color: #000000;
 }
 
@@ -311,11 +292,9 @@ body {
   border-radius: 10px;
   width: 100px;
   height: 100px;
-  font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 33px;
-  /* identical to box height */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -335,7 +314,6 @@ body {
 }
 
 .promo__descr-rate-txt-title {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 21px;
@@ -344,9 +322,6 @@ body {
 }
 
 .promo__descr-rate-txt-descr {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   color: #363636;
@@ -374,8 +349,6 @@ body {
 }
 
 .people__toggle-item a {
-  font-style: normal;
-  font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   color: #A5A5A5;
@@ -397,6 +370,8 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -418,15 +393,12 @@ body {
   display: flex;
   margin-right: 20px;
   margin-left: 20px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: #A5A5A5;
 }
 
 .people__table-item span {
-  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
@@ -444,7 +416,6 @@ body {
 
 .footer__title {
   padding-top: 70px;
-  font-style: normal;
   font-weight: 900;
   font-size: 24px;
   line-height: 28px;
@@ -465,7 +436,6 @@ body {
   margin-left: 15px;
   margin-right: 15px;
   padding: 30px;
-  font-style: normal;
   font-weight: 900;
   font-size: 14px;
   line-height: 16px;
@@ -475,8 +445,6 @@ body {
 .footer__wrapper-item span {
   display: block;
   margin-bottom: 14px;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 16px;
   color: #000000;
