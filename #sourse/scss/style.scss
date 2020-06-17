@@ -59,7 +59,7 @@ body{
     &__menu{
         min-width: 317px;
         ul{
-            min-width: 317px;
+        
             padding: 0;
             margin: 0;
              display: flex;  
@@ -96,7 +96,7 @@ body{
 
     &__register{
         min-width: 176px;
-        width: 180px;
+        //width: 180px;
         border-left :  1px solid #D4D4D4;
         display: flex;
         justify-content: center;
@@ -141,12 +141,17 @@ body{
 }
 
 .promo{
+
     margin-top: 80px;
-    height: 640px;
+    min-height: 640px;
      display: flex;
 
     &__bunner{
-        height: 530px;
+        img{
+            width: 100%;
+        }
+       // min-height: 530px;
+        max-height: 535px;
         margin-right: 80px;
         display: flex;
         flex-direction: column;
@@ -155,13 +160,13 @@ body{
         transition: all 1s;
       
         &-btn{ 
-            
-            position: relative;
+            border:  1px solid #D4D4D4;
+           
             cursor: pointer;           
             display: flex;
             justify-content: center;
             align-items:center;
-            height: 70px;
+            min-height: 70px;
             background: white;
             border:none;       
             font-style: normal;
@@ -185,9 +190,7 @@ body{
             content: url('../img/play.svg');                                 
             width: 20px;
             height: 20px;
-            position: absolute;
-            left: 60px;
-            bottom: 28px;
+           
         }
     }
 
@@ -307,6 +310,7 @@ body{
 .people{
     margin-top: 90px;
 
+    //height: 500px;
     &__toggle{
         display: flex;
 
@@ -333,22 +337,34 @@ body{
     }
 
     &__table{
+        min-height: 245px;
+        margin-top: 40px;
+        margin-bottom: 100px;
         img{
             height: 100px;
             width: 100px;
         }
-        margin-top: 60px;
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
      
-        height: 500px;
+        
         &-item{
-            align-items:center;
-            
+            span{
+                
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+                color: #5671F6;
+            }
+            margin-top: 20px;
+            align-items:center;            
             width: 234px;
             display: flex;
-            margin-right: 40px;
+            margin-right: 20px;
+            margin-left: 20px;
             font-style: normal;
             font-weight: normal;
             font-size: 16px;

@@ -75,7 +75,6 @@ body {
 }
 
 .header__menu ul {
-  min-width: 317px;
   padding: 0;
   margin: 0;
   display: -webkit-box;
@@ -118,7 +117,6 @@ body {
 
 .header__register {
   min-width: 176px;
-  width: 180px;
   border-left: 1px solid #D4D4D4;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -171,14 +169,14 @@ body {
 
 .promo {
   margin-top: 80px;
-  height: 640px;
+  min-height: 640px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
 .promo__bunner {
-  height: 530px;
+  max-height: 535px;
   margin-right: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,8 +191,12 @@ body {
   transition: all 1s;
 }
 
+.promo__bunner img {
+  width: 100%;
+}
+
 .promo__bunner-btn {
-  position: relative;
+  border: 1px solid #D4D4D4;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -205,7 +207,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 70px;
+  min-height: 70px;
   background: white;
   border: none;
   font-style: normal;
@@ -228,9 +230,6 @@ body {
   content: url("../img/play.svg");
   width: 20px;
   height: 20px;
-  position: absolute;
-  left: 60px;
-  bottom: 28px;
 }
 
 .promo__descr-title {
@@ -380,7 +379,9 @@ body {
 }
 
 .people__table {
-  margin-top: 60px;
+  min-height: 245px;
+  margin-top: 40px;
+  margin-bottom: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -389,7 +390,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  height: 500px;
 }
 
 .people__table img {
@@ -398,6 +398,7 @@ body {
 }
 
 .people__table-item {
+  margin-top: 20px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -405,12 +406,21 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   color: #A5A5A5;
+}
+
+.people__table-item span {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #5671F6;
 }
 
 .people__table-item-descr {
