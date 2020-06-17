@@ -175,6 +175,10 @@ body {
   display: flex;
 }
 
+.promo h1 {
+  margin: 0;
+}
+
 .promo__bunner {
   max-height: 535px;
   margin-right: 80px;
