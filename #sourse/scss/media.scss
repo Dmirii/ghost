@@ -5,8 +5,21 @@
 @media (max-width: 991px){  
     
     .header{
+        &__logo{
+            min-width: 110px;
+        }
         &__search{
             margin-left: 5px;
+        }
+        &__menu{
+            margin-right: 0;
+            
+        }
+        &__register{
+            min-width: 130px;
+        }
+        &__enter{
+            min-width: 110px;
         }
     }
     .wrapper{
@@ -106,6 +119,20 @@
             height: 100px;
         }   
         
+    }
+
+    .footer{
+        height: 500px;
+        &__wrapper{
+            flex-wrap: wrap;
+            flex-basis: 48%;
+            justify-content: space-between;
+            &-item{
+                margin-bottom: 20px;
+            }
+    
+        }
+      
     }
 }
 
@@ -249,13 +276,17 @@
     &__wrapper{
         display: flex;
         align-items:center;
+        flex-wrap: nowrap;
+        
 
         a{
             display: block;
         }
         margin-left: 30px;
         margin-right: 30px;
-     
+        &-item{
+            margin: 0;
+        }
         &-item2,
         &-item3,
         &-item4{
