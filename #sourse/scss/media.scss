@@ -93,25 +93,72 @@
 @media (max-width: 767px){  
     .header{
         &__logo{
-            min-width:100px;
+            min-width:80px;
         }
         &__search{
-            margin-left: 10px;
+            margin-left: 0px;
         }
         &__menu{
             min-width: 60px;
+            
            ul{
                display: flex;
                flex-direction: column;
            }
         }
         &__register{
-            min-width: 140px;
-        }     
+            min-width: 120px;
+        }   
+        &_enter{
+            min-width: 90px;
+        }  
     }
     .promo__bunner{
         margin-right: 20px;
     } 
+    .promo__descr{
+        &-title{
+            max-width: 310px;
+            font-size: 30px;
+            min-width: 240px;
+        }
+        &-subtitle{
+            max-width: 240px;
+        }
+        &-txt{
+            margin-top: 30px;
+            min-width: 240px;
+            max-width: 320px;
+        }
+        table{
+            //display: none;
+            border-spacing: 10px 5px;
+            font-size: 10px;
+            //margin-right: 5px !important;
+        }
+
+        &-table-wrapper{            
+            flex-wrap: wrap;
+            justify-content: start;
+            max-width: 500px;
+        }
+        &-ltable{          
+            min-width: 205px;  
+            max-width: 320px;          
+            margin-top: 20px;  
+            margin-right: 5px;        
+        }
+
+        &-rtable{
+            min-width: 205px; 
+            max-width: 230px;              
+            margin-top: 20px;            
+        }
+        &-rate{
+            margin-top: 40px;
+        }
+    }
+
     .people{
         &__table{
             flex-basis:100%;
@@ -288,6 +335,7 @@
         margin-right: 30px;
         &-item{
             margin: 0;
+            width: 240px;
         }
         &-item2,
         &-item3,
