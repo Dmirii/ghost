@@ -146,7 +146,8 @@ body{
         &-btn{ 
            // outline: none;
             position: relative;
-            border:  1px solid #D4D4D4;           
+            border:  1px solid #D4D4D4;  
+            border-radius: 0 0 5px 5px;         
             cursor: pointer;           
             display: flex;
             align-items: center;
@@ -206,9 +207,7 @@ body{
             display: flex;
             min-width: 500px;           
             justify-content:start;
-            align-items:center; 
-
-                     
+            align-items:center;                      
         }
         &-ltable{          
             min-width: 255px;            
@@ -335,7 +334,7 @@ body{
 
         }
     }
-}
+}   
 
 .footer{
 
@@ -345,6 +344,7 @@ body{
     height: 424px;
     background: #F3F3F3;
     &__title{
+        margin: 0;
        padding-top: 70px;          
         font-weight: 900;
         font-size: 24px;
@@ -354,6 +354,8 @@ body{
     &__wrapper{
         margin-top: 65px;
         display: flex;
+        flex-basis: 20%;
+        justify-content: space-between;
         &-item{    
             width: 260px;
             background: #FFFFFF;

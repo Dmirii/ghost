@@ -196,6 +196,7 @@ body {
 .promo__bunner-btn {
   position: relative;
   border: 1px solid #D4D4D4;
+  border-radius: 0 0 5px 5px;
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -424,6 +425,7 @@ body {
 }
 
 .footer__title {
+  margin: 0;
   padding-top: 70px;
   font-weight: 900;
   font-size: 24px;
@@ -436,6 +438,11 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__wrapper-item {

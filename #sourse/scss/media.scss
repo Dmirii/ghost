@@ -5,7 +5,7 @@
 @media (max-width: 991px){  
     
     .wrapper{
-        max-width: 840px;
+        max-width: 800px;
 
     }
     .header__menu{
@@ -21,6 +21,48 @@
     
     .promo__bunner{
         max-height: 388px;
+        margin-right: 20px;
+
+        &-btn{
+            border: 1px solid #D4D4D4;
+            border-radius: 0 0 5px 5px;
+        }
+    }
+    .promo__descr{
+        &-title{
+            max-width: 300px;
+            font-size: 34px;
+        }
+        &-subtitle{
+            max-width: 300px;
+        }
+        &-txt{
+            margin-top: 30px;
+            min-width: 300px;
+            max-width: 480px;
+        }
+        table{
+            border-spacing: 15px 10px
+        }
+
+        &-table-wrapper{            
+            flex-wrap: wrap;
+            max-width: 500px;
+        }
+        &-ltable{          
+            min-width: 205px;  
+            max-width: 320px;          
+            margin-top: 20px;          
+        }
+
+        &-rtable{
+            min-width: 205px; 
+            max-width: 230px;              
+            margin-top: 20px;            
+        }
+        &-rate{
+            margin-top: 40px;
+        }
     }
 }
 
