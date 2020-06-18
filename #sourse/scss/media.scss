@@ -4,20 +4,16 @@
 
 @media (max-width: 991px){  
     
+    .header{
+        &__search{
+            margin-left: 5px;
+        }
+    }
     .wrapper{
         max-width: 800px;
 
     }
-    .header__menu{
-       min-width: 100px;
-        ul{  
-          
-            //max-width: 150px !important;
-            flex-direction: column;
-        }
-        
-
-    }
+   
     
     .promo__bunner{
         max-height: 388px;
@@ -76,10 +72,12 @@
         }
         &__menu{
             min-width: 150px;
+                // flex-direction: column;
+
         }
         &__register{
             min-width: 140px;
-        }
+        }     
     }
     .promo__bunner{
         margin-right: 20px;

@@ -1,15 +1,9 @@
 @media (max-width: 991px) {
+  .header__search {
+    margin-left: 5px;
+  }
   .wrapper {
     max-width: 800px;
-  }
-  .header__menu {
-    min-width: 100px;
-  }
-  .header__menu ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .promo__bunner {
     max-height: 388px;
