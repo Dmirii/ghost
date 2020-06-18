@@ -209,14 +209,20 @@ body{
             justify-content:start;
             align-items:center;                      
         }
-        &-ltable{          
+        &-ltable{  
+            span{
+                font-weight: bold;
+            }        
             min-width: 255px;            
             margin-top: 50px;          
         }
 
         &-rtable{
             min-width: 255px;             
-            margin-top: 50px;            
+            margin-top: 50px; 
+            span{
+                font-weight: bold;
+            }             
         }
         &-rate{
             margin-top: 50px;

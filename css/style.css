@@ -276,9 +276,17 @@ body {
   margin-top: 50px;
 }
 
+.promo__descr-ltable span {
+  font-weight: bold;
+}
+
 .promo__descr-rtable {
   min-width: 255px;
   margin-top: 50px;
+}
+
+.promo__descr-rtable span {
+  font-weight: bold;
 }
 
 .promo__descr-rate {

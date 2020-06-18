@@ -46,6 +46,19 @@
   .promo__descr-rate {
     margin-top: 40px;
   }
+  .people__table {
+    -ms-flex-preferred-size: 25%;
+        flex-basis: 25%;
+  }
+  .people__table-item {
+    width: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .people__table-item img {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -63,6 +76,14 @@
   }
   .promo__bunner {
     margin-right: 20px;
+  }
+  .people__table {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .people img {
+    width: 100px;
+    height: 100px;
   }
 }
 

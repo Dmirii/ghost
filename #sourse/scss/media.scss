@@ -12,8 +12,7 @@
     .wrapper{
         max-width: 800px;
 
-    }
-   
+    }   
     
     .promo__bunner{
         max-height: 388px;
@@ -24,6 +23,7 @@
             border-radius: 0 0 5px 5px;
         }
     }
+
     .promo__descr{
         &-title{
             max-width: 300px;
@@ -60,6 +60,21 @@
             margin-top: 40px;
         }
     }
+
+    .people{
+        &__table{
+            flex-basis: 25%;
+            &-item{
+                width: 200px;
+                margin-left: 0px;
+                margin-right: 0px;
+            img{
+                width: 70px;
+                height: 70px;
+            }
+            }
+        }
+    }
 }
 
 @media (max-width: 767px){  
@@ -82,6 +97,16 @@
     .promo__bunner{
         margin-right: 20px;
     } 
+    .people{
+        &__table{
+            flex-basis:100%;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }   
+        
+    }
 }
 
 @media(max-width: 575px){
