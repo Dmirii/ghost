@@ -6,6 +6,11 @@ body{
 .no-scroll{
     overflow: hidden;
 }
+
+// .swiper-container {
+//     width: 360px;
+//     height:300px;
+// }
 .header{
     display: flex;
     justify-content: space-between;
@@ -348,7 +353,15 @@ body{
 
     &__img{
         display: none;
+        background:transparent;
+        border:none;
+        position: absolute;
+        top: 130px;
+        right: 40px;
+        z-index: 50;
+        cursor: pointer;
     }
+
     height: 424px;
     background: #F3F3F3;
     &__title{
@@ -361,18 +374,25 @@ body{
     }
     &__wrapper{
         margin-top: 65px;
+        position: relative;
         display: flex;
         flex-basis: 20%;
         justify-content: space-between;
+       // margin-right: 10px;
+        //margin-left: 10px;
+        a{
+            position: absolute;
+            right: 30px;
+            top:50%;
+        }
         &-item{    
             width: 260px;
+            height: 160px;
             background: #FFFFFF;
-            border-radius: 5px;
-            margin-left: 15px;
-            margin-right: 15px;
-            padding: 30px;            
+            border-radius: 5px;           
+            padding-left: 10px;            
             font-weight: 900;
-            font-size: 14px;
+            font-size: 14px;    
             line-height: 16px;
             color: #000000;
 

@@ -17,4 +17,22 @@ $(document).ready( () =>{
         $('body').toggleClass('no-scroll');
 
     })
+    // carusel
+    var mySwiper = new Swiper ('.swiper-container', {
+     
+        
+        slidesPerView:4,
+       
+        spaceBetween: 25,
+        loop: true,
+        breakpoints:{
+            992:{slidesPerView:4},
+            768:{slidesPerView:2},
+            320:{slidesPerView:1,
+                navigation:{
+                    nextEl:'.footer__img',
+                }}
+           
+        }
+      })
 })

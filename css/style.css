@@ -434,6 +434,13 @@ body {
 
 .footer__img {
   display: none;
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 130px;
+  right: 40px;
+  z-index: 50;
+  cursor: pointer;
 }
 
 .footer__title {
@@ -447,6 +454,7 @@ body {
 
 .footer__wrapper {
   margin-top: 65px;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,13 +465,18 @@ body {
           justify-content: space-between;
 }
 
+.footer__wrapper a {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+}
+
 .footer__wrapper-item {
   width: 260px;
+  height: 160px;
   background: #FFFFFF;
   border-radius: 5px;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding: 30px;
+  padding-left: 10px;
   font-weight: 900;
   font-size: 14px;
   line-height: 16px;

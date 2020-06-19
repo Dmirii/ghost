@@ -353,9 +353,6 @@
     margin: 0;
     width: 240px;
   }
-  .footer__wrapper-item2, .footer__wrapper-item3, .footer__wrapper-item4 {
-    display: none;
-  }
   .footer__img {
     display: block;
   }
