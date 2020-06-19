@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="./css/style.min.css">
     <link rel="stylesheet" href="./css/media.min.css">
   
@@ -17,15 +18,17 @@
             <div class="header__search-ico"><img src="./img/ico/search-icon.png" alt="поиск"></div> 
             <input class="header__search-input" placeholder="Поиск по фильмам... " type="search">
             </div>
-        <div class="header__menu">
-            <ul>
-                <li><a href="#">Фильмы</a></li>
-                <li><a href="#">ТВ</a></li>
-                <li><a href="#">Новости</a></li>
-                <li><a href="#">О сервисе</a></li>
-
-
-            </ul>
+        <div class="header__m-menu">
+            <div class="header__menu">
+                <ul>
+                    <li><a href="#">Фильмы</a></li>
+                    <li><a href="#">ТВ</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">О сервисе</a></li>
+    
+    
+                </ul>
+            </div>
         </div>
         <div class="header__register"><a href="#">Регистрация</a></div>
         <div class="header__enter"><a href="#">Войти</a></div>
@@ -37,10 +40,10 @@
           
                 <div class="promo__bunner">
                      <img class="promo__bunner-img" src="./img/bunner.png" alt="promo bunner" > 
-                    <button class="promo__bunner-btn">
+                    <a data-fancybox href="https://www.youtube.com/watch?v=e51bI9GovXY" class="promo__bunner-btn">
                     
                         <p class="promo__bunner-btn-txt">Посмотреть трейлер</p>
-                    </button>
+                    </a>
                 </div>
                 <div class="promo__descr">
                     <h1 class="promo__descr-title">Охотники за привидениями: <br>Наследники</h1>
@@ -172,6 +175,8 @@
      </div>
 
    </footer>
-    
+   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+   <script src="./js/script.js"></script>
 </body>
 </html>

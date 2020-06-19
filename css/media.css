@@ -169,6 +169,14 @@
   .header {
     height: 65px;
   }
+  .header .active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .header .no-scroll {
+    overflow: hidden;
+  }
   .header__burger {
     display: block;
     position: relative;
@@ -200,19 +208,70 @@
     border-right: none;
   }
   .header__search {
-    padding-left: 170px;
+    display: none;
+    position: fixed;
+    z-index: 46;
+    top: 95px;
+    left: 60px;
+  }
+  .header__search-ico {
+    display: none;
   }
   .header__search input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .header__m-menu {
     display: none;
+    position: fixed;
+    z-index: 45;
+    left: 0;
+    top: 68px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #5671F6;
+    width: 100%;
+    height: 100%;
   }
   .header__menu {
     display: none;
+    position: fixed;
+    z-index: 45;
+    left: 134px;
+    top: 194px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__menu li a {
+    color: white;
+    line-height: 40px;
+  }
+  .header__menu ul {
+    color: white;
   }
   .header__register {
     display: none;
+    position: fixed;
+    z-index: 47;
+    top: 450px;
+    left: 125px;
+    border-left: none;
+  }
+  .header__register a {
+    color: white;
   }
   .header__enter {
     display: none;
+    position: fixed;
+    z-index: 47;
+    left: 130px;
+    top: 400px;
+    border-left: none;
   }
   .promo {
     display: -webkit-box;

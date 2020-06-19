@@ -3,6 +3,10 @@ body {
   font-family: Roboto;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -472,5 +476,11 @@ body {
   font-size: 14px;
   line-height: 16px;
   color: #000000;
+}
+
+.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=style.css.map */
