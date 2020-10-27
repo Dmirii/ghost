@@ -1,2 +1,2 @@
 # ghost
-Интенсив от Glo . Изучаею HTML + CSS + JS
+Интенсив от Glo . Изучаю HTML + CSS + JS
